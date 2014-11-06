@@ -1,11 +1,15 @@
+/**
+ * Viewport manager
+ *
+ * @author 	Yoeran Luteijn <contact@yoeran.nl>
+ * @version 1
+ */
+
 ( function( window, $, undefined ) {
 	"use strict";
 	var $document	= $(window.document),
 			$window		= $(window);
 
-	/**
-	 * Viewport manager
-	 */
 	var VPM = function()
 	{
 		var self				= this;
