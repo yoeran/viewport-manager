@@ -3,7 +3,7 @@ Viewport Manager
 
 Easily hook events to your viewport changes. Nice for responsive design issues.
 
-### Examples
+### Example usage
 Define your viewports
 ```
 VPM.addView('small', 0, 760);
@@ -25,6 +25,8 @@ VPM.on('medium', 'exit', function(){
 	// e.g. cleanup some functions, unbind listeners etc.
 });
 ```
+
+Initialize the manager with `VPM.init();` on document ready.
 
 ### Dependencies
 * jQuery
